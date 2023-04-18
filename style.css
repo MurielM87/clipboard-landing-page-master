@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: hsl(201, 11%, 66%);
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+#card {
+    width: 80%;
+    margin: auto;
+}
+#logo_header {
+    margin: 50px 45%;
+}
+h1,
+#text_header,
+h4 {
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+.button_download {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.btn_ios,
+.btn_mac {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.btn_ios:hover,
+.btn_mac:hover {
+    cursor: pointer;
+}
+.btn_ios {
+    background-color: hsl(171, 66%, 44%);
+}
+.btn_mac {
+    background-color: hsl(233, 100%, 69%);
+}
+h2 {
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+h3 {
+    color: hsl(210, 10%, 33%);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.text {
+    margin-bottom: 30px;
+}
+#computer_part {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 200px;
+}
+#img_computer {
+    position: absolute;
+    top: 0;
+    left: -160px;
+}
+#computer_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 650px;
+}
+#img_device {
+    margin: auto;
+}
+#icons_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icone_img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+h3 {
+    width: 100%;
+}
+.icone_description {
+    width: 90%;
+    line-height: 30px;
+}
+#social_network {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.logo_img {
+    width: 15%;
+    height: 40px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(198, 13%, 85%);
+    padding-top: 20px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+}
+#logo_footer {
+    width: 50px;
+    height: 50px;
+}
+#footer_contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#footer_text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer_class {
+    line-height: 40px;
+    margin-right: 100px;
+}
+footer #social_icons {
+    margin-top: 30px;
+}
+.fab {
+    font-size: 30px;
+    margin-right: 20px;
+}
+footer .fab:hover {
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url("./images/bg-header-mobile.png");
+    }
+    #card {
+        width: 95%;
+    }
+    #logo_header {
+        margin: 50px 32%;
+    }
+    h1 {
+        font-size: 25px;
+        width: 100%;
+    }
+    #text_header,
+    h4 {
+        width: 100%;
+    }
+    .button_download {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .btn_ios,
+    .btn_mac {
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    .btn_ios {
+        margin-bottom: 20px;
+    }
+    .btn_mac {
+        margin-bottom: 150px;
+    }
+    p {
+        width: 90%;
+    }
+    h3 {
+        text-align: center;
+    }
+    .text {
+        text-align: center;
+    }
+    #computer_part {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 200px;
+    }
+    #img_computer {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-bottom: 50px;
+    }
+    #computer_text {
+        margin-left: 0;
+    }
+    #img_device {
+        width: 100%;
+        margin: auto;
+    }
+    #icons_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icone_img {
+        display: flex;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .icone_description {
+        width: 90%;
+        line-height: 30px;
+    }
+    #social_network {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 120px;
+    }
+    .logo_img {
+        width: 50%;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(198, 13%, 85%);
+        padding-top: 20px;
+    }
+    footer img {
+        width: 30px;
+        height: 30px;
+    }
+    #logo_footer {
+        margin: auto;
+        margin-top: 30px;
+    }
+    #footer_contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_class {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer #social_icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .fab {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    footer .fab:hover {
+        cursor: pointer;
+        color: hsl(171, 66%, 44%);
+    }
+}
